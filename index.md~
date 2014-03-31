@@ -9,6 +9,7 @@ Welcome to Something About Code!
 I'm Zheng He and this is my blog.
     
 ## Previous Posts
+
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>

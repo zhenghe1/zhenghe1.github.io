@@ -6,7 +6,7 @@ tagline: Is this how I code?
 {% include JB/setup %}
 
 Welcome to Something About Code!
-I'm Zheng He and this is my blog.
+I'm Zheng He and this is my blog.<br />
     
 ## Previous Posts
 
