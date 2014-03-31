@@ -7,6 +7,7 @@ categories: [tutorials, trees]
 ---
 {% include JB/setup %}
 ##1 - Intro
+First and foremost, the materials I am working with is found in Peter Brass's Advanced Data Structures book.
 For my first post, I'd like to introduce a tree data structure that is not so commonly used or taught compared to the "traditional" tree. When I was working with these trees, I realized that I couldn't find any good description of them online. It might be because they have a more technical name than what I was told. I call them "Leaf Trees".
 
 First, allow me to describe the traditional tree structure. 
@@ -67,7 +68,7 @@ Before we trace through `Example 2` with the leaf tree, let's define the conditi
 			node = node->left
 		else  // if query >= node->data
 			node = node->right
-	if(query == node->data)
+	if query == node->data
 		return node->left->data	  // or some success flag
 	
 I will now explain the traversal algorithm. We want the condition while(node->right != NULL) because that means we have not yet reached the leaf. Remember, the idea of using the leaf tree is to have every single object in the leaves. The internal nodes (non-leaf nodes) does not hold any meaningful value, other than for comparison. Once the condition in the while loop breaks, i.e. when (node->right == NULL), that means we have **reached the last internal node that points to the object that we are looking for**. So at this point, node->right == NULL and node->left is the object. These two cases must hold for the tree to be a correct leaf tree.
