@@ -9,7 +9,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Zheng He
-# tagline: Site Tagline
+tagline: Site Tagline
 author :
   name : Zheng He
   email : zhenghe12613@gmail.com
