@@ -6,7 +6,11 @@ tagline: Is this how I code?
 {% include JB/setup %}
 
 Welcome to Something About Code!
-I'm Zheng He and this is my blog.<br />
+I'm Zheng He and this is my blog.
+
+I will mostly be blogging about my current coursework and interests. Please note that I mostly code in C++ so my pseudocode will be in that style.
+<br />
+<br />
     
 ## Previous Posts
 
@@ -18,4 +22,4 @@ I'm Zheng He and this is my blog.<br />
 
 ## To-Do
 
-Tutorial on Github and Jekyll for beginners that talk about stuff not found on the popular beginner tutorials.
+Leaf tree operations
